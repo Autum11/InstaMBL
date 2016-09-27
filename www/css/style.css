@@ -1,0 +1,62 @@
+/* Empty. Add your own CSS if you like */
+
+
+.title{
+    text-align: center !important ;
+}
+
+.profile ul {
+
+    list-style-type: none;
+
+}
+
+.text-white{
+  color:#fff;
+}
+
+.profile_pic{
+    border-radius: 50%;
+    width: 120px;
+    height: auto;
+    padding: 0.8em;
+    margin-left : 5%;
+
+}
+
+.profile-pic {
+    width: 30%;
+    height: auto;
+    display: block;
+    margin-top: -50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20%;
+    border-radius: 4em 4em 4em / 4em 4em;
+} 
+
+
+.imageholder {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.profile li img {
+    float: left;
+    border: 5px solid #fff;
+    width: 30%;
+    height: 10%;
+    -webkit-transition: box-shadow 0.5s ease;
+    -moz-transition: box-shadow 0.5s ease;
+    -o-transition: box-shadow 0.5s ease;
+    -ms-transition: box-shadow 0.5s ease;
+    transition: box-shadow 0.5s ease;
+}
+
+.profile li img:hover {
+    -webkit-box-shadow: 0px 0px 7px rgba(255, 255, 255,0.9);
+    box-shadow: 0px 0px 7px rgba(255, 255, 255, 0.9);
+}
